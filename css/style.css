@@ -114,7 +114,7 @@ body
     text-decoration: none;
     cursor: pointer;
     color: var(--white);
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 .profile-link:hover
 {
@@ -132,11 +132,11 @@ body
 .profile span
 {
     display: block;
-    margin: 10px 0;
+    margin: 10px 0 0;
     line-height: 14px;
 }
 
-.edit-profile-button
+/* .edit-profile-button
 {
     text-align: center;
 }
@@ -152,4 +152,4 @@ body
     text-align: center;
     text-decoration: none;
     border: 1px solid grey;
-}
+} */
