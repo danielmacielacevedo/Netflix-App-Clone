@@ -80,7 +80,6 @@ h1
     line-height: 8px;
     text-align: center;
 }
-
 .profile
 {
     display: inline-block;
@@ -92,7 +91,6 @@ h1
     max-width: 200;
     min-width: 84px;
 }
-
 .profile-link
 {
     display: block;
@@ -102,23 +100,19 @@ h1
     cursor: pointer;
     color: var(--grey2);
 }
-
 .profile-link:hover
 {
     color: var(--white);
 }
-
 .profile img
 {
     width: 84px;
     border-radius: 5px;
 }
-
 .profile img:hover
 {
     border: 2px solid var(--white);
 }
-
 .profile span
 {
     display: block;
