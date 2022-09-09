@@ -1,0 +1,127 @@
+:root
+{
+    --back1: #141414;
+    --back2: #212121c4;
+    --grey1: #323232;
+    --grey2: rgb(147, 147, 147);
+    --dark: #121212;
+    --white: #ffffff;
+
+}
+
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html
+{
+    font-size: 62.5%;
+
+}
+
+body
+{
+    background: var(--back1);
+    font-family: 'Helvetica', sans-serif;
+}
+
+h1
+{
+    color: var(--white);
+}
+
+.profiles-container 
+{
+    display: block;
+    position: fixed;
+    text-align: center;
+    height: 100%;
+    padding-top: 40px;
+    line-height: 1.2rem;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.profiles-container-list
+{
+    align-items: center;
+    inset: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    z-index: 100%;
+}
+
+.profiles-link
+{
+    display: block;
+    text-align: center;
+    line-height: 14.4px;
+}
+
+.profiles-link h1
+{
+    margin: 20px 0 20px;
+    font-size: 30px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+.profiles 
+{
+    display: block;
+    font-size: 11px;
+    line-height: 8px;
+    text-align: center;
+}
+
+.profile
+{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    vertical-align: top;
+    margin: 0 16px 0 0;
+    width: 84px;
+    max-width: 200;
+    min-width: 84px;
+}
+
+.profile-link
+{
+    display: block;
+    text-align: center;
+    line-height: 14.4px;
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--grey2);
+}
+
+.profile-link:hover
+{
+    color: var(--white);
+}
+
+.profile img
+{
+    width: 84px;
+    border-radius: 5px;
+}
+
+.profile img:hover
+{
+    border: 2px solid var(--white);
+}
+
+.profile span
+{
+    display: block;
+    margin: 6px 0 6px;
+    line-height: 14px;
+}
