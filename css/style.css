@@ -24,7 +24,7 @@ html
 
 body
 {
-    background: var(--back1);
+    background: black;
     font-family: 'Helvetica', sans-serif;
 }
 
@@ -32,14 +32,15 @@ body
 {
     height: 41px;
     width: 100%;
-    padding: 0 24px 0 24px;
+    padding: 0 12px 0 12px;
     display: flex;
     align-items: center;        
 }
 
 .main-header img
 {
-    width: 52px;
+    margin-top: 34px;
+    width: 34px;
 }
 
 .profiles-container 
@@ -77,8 +78,8 @@ body
 
 .profiles-link h1
 {
-    margin: 35px 0 20px;
-    font-size: 30px;
+    margin: 20px 0 20px;
+    font-size: 24px;
     font-family: Helvetica, sans-serif;
     font-weight: 100;
     color: var(--white);
@@ -100,36 +101,38 @@ body
     text-align: center;
     vertical-align: top;
     margin: 0 16px 0 0;
-    width: 84px;
+    width: 100px;
     max-width: 200;
-    min-width: 84px;
+    min-width: 100px;
 }
 .profile-link
 {
     display: block;
+    font-size: 16px;
     text-align: center;
     line-height: 14.4px;
     text-decoration: none;
     cursor: pointer;
-    color: var(--grey2);
+    color: var(--white);
+    margin-bottom: 40px;
 }
 .profile-link:hover
 {
-    color: var(--white);
+    color: var(--grey2);
 }
 .profile img
 {
-    width: 84px;
+    width: 100px;
     border-radius: 5px;
 }
 .profile img:hover
 {
-    border: 2px solid var(--white);
+    border: 2px solid var(--grey2);
 }
 .profile span
 {
     display: block;
-    margin: 6px 0 6px;
+    margin: 10px 0;
     line-height: 14px;
 }
 
