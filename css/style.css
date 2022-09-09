@@ -28,6 +28,19 @@ body
     font-family: 'Helvetica', sans-serif;
 }
 
+.main-header
+{
+    height: 41px;
+    padding: 0 24px 0 24px;
+    display: flex;
+    align-items: center;        
+}
+
+.main-header img
+{
+    width: 52px;
+}
+
 h1
 {
     color: var(--white);
@@ -67,7 +80,7 @@ h1
 
 .profiles-link h1
 {
-    margin: 20px 0 20px;
+    margin: 35px 0 20px;
     font-size: 30px;
     font-family: Helvetica, sans-serif;
     font-weight: 100;
@@ -76,6 +89,7 @@ h1
 .profiles 
 {
     display: block;
+    padding: 20px 0 10px 0;
     font-size: 11px;
     line-height: 8px;
     text-align: center;
@@ -118,4 +132,22 @@ h1
     display: block;
     margin: 6px 0 6px;
     line-height: 14px;
+}
+
+.edit-profile-button
+{
+    text-align: center;
+}
+
+.edit-profile-button a
+{
+    cursor: pointer;
+    margin: 26px 0 13px;
+    padding: 8px 20px 8px 20px;
+    display: block;
+    font-size: 14px;
+    color: grey;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid grey;
 }
