@@ -42,6 +42,7 @@ main
     max-width: 768px;
     min-width: 240px;
     padding: 0 18px 0 12px;
+    background-image: linear-gradient(to top, rgba(255,0,0,0), rgb(0, 0, 0));
     display: flex;
     position: fixed;
     align-items: center;
@@ -54,20 +55,21 @@ main
     width: 34px;
 }
 
-.user-tools a
-{
-    
-}
-
 .user-tools img
 {
-    height: 34px;
+    height: 24px;
+    width: 24px;
     margin-left: 20px;
 }
 
 .user-tools a:nth-child(3) img
 {
     border-radius: 4px;
+}
+
+.user-tools a:nth-child(1) img
+{
+    width: 28px;
 }
 
 .primary-section
