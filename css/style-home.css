@@ -29,6 +29,7 @@ main
 {
     background: var(--dark);
     height: auto;
+    min-width: 240px;
     max-width: 768px;
     margin: 0 auto;
     outline: 2px dashed red;
@@ -38,16 +39,35 @@ main
 {
     height: 80px;
     width: 100%;
-    padding: 0 12px 0 12px;
+    max-width: 768px;
+    min-width: 240px;
+    padding: 0 18px 0 12px;
     display: flex;
     position: fixed;
     align-items: center;
+    justify-content: space-between;
     /* background-color: var(--grey1);      */
 }
 
 .main-header img
 {
     width: 34px;
+}
+
+.user-tools a
+{
+    
+}
+
+.user-tools img
+{
+    height: 34px;
+    margin-left: 20px;
+}
+
+.user-tools a:nth-child(3) img
+{
+    border-radius: 4px;
 }
 
 .primary-section
@@ -134,7 +154,7 @@ main
 
 .movies-container-slider img
 {
-    height: 160px;
+    height: 148px;
 }
 
 @media only screen and (min-width: 426px) 
