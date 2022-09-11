@@ -1,10 +1,7 @@
 :root
 {
-    --back1: #141414;
-    --back2: #212121c4;
-    --grey1: #323232;
-    --grey2: rgb(147, 147, 147);
-    --dark: #121212;
+    --grey1: rgb(147, 147, 147);
+    --dark: #000000;
     --white: #ffffff;
 
 }
@@ -24,8 +21,16 @@ html
 
 body
 {
-    background: black;
+    background: var(--grey1);
     font-family: 'Helvetica', sans-serif;
+}
+
+main
+{
+    background: var(--dark);
+    height: 100vh;
+    max-width: 768px;
+    margin: 0 auto;
 }
 
 .main-header
@@ -48,8 +53,10 @@ body
     display: block;
     position: fixed;
     text-align: center;
+    max-width: 768px;
     height: 100%;
     padding-top: 40px;
+    margin: 0 auto;
     line-height: 1.2rem;
     left: 0;
     right: 0;
@@ -79,7 +86,7 @@ body
 .profiles-link h1
 {
     margin: 20px 0 20px;
-    font-size: 24px;
+    font-size: 2.8rem;
     font-family: Helvetica, sans-serif;
     font-weight: 100;
     color: var(--white);
@@ -118,7 +125,7 @@ body
 }
 .profile-link:hover
 {
-    color: var(--grey2);
+    color: var(--grey1);
 }
 .profile img
 {
@@ -127,7 +134,7 @@ body
 }
 .profile img:hover
 {
-    border: 2px solid var(--grey2);
+    border: 2px solid var(--grey1);
 }
 .profile span
 {
