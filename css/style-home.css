@@ -52,21 +52,25 @@ main
 .primary-section
 {
     width: 100%;
+    height: 60vh;
+    background-image: url("https://images2.minutemediacdn.com/image/fetch/c_fill,g_auto,f_auto,h_389,w_590/https%3A%2F%2Fnetflixlife.com%2Ffiles%2F2022%2F08%2FEOTR_20210617_Unit_06842_R-850x560.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.gradient-cover
+{
+    background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgb(0, 0, 0));
 }
 
 .cover-movie
 {
     width: 100%;
-}
-
-.cover-movie a
-{
-    width: 100%;
-}
-
-.cover-movie img
-{
-    width: 100%;
+    height: 60vh;
+    background-image: url("../assets/covers/covermovie-logo1.png");
+    background-position: bottom;
+    background-size: cover;
+    
 }
 
 .profiles-container 
@@ -130,4 +134,12 @@ main
 .movies-container-slider img
 {
     height: 160px;
+}
+
+@media only screen and (min-width: 426px) 
+{
+    .cover-movie
+    {
+        background-image: url("../assets/covers/covermovie-logo1-tablet.png");
+    }
 }
